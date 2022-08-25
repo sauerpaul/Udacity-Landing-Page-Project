@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Udacity Landing Page Project</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">  
+  <!-- Stylesheet -->
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page-header">
+    <nav class="navbar-menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar-list"></ul>
+    </nav>
+  </header>
+
+  <main>
+    <header class="main-hero">
+      <h1>Landing Page </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing-container">
+        <h2>Section 1</h2>
+        <p>Cupcake ipsum dolor sit amet wafer gummi bears danish croissant. Wafer I love dessert pie cake icing oat cake pudding. 
+          Candy I love danish oat cake carrot cake I love. Donut pastry toffee pie I love tootsie roll bonbon. 
+          Apple pie soufflé I love cheesecake I love tootsie roll pudding croissant. Chocolate bar muffin fruitcake powder cupcake. 
+          Powder biscuit macaroon I love pastry chocolate wafer. Gingerbread liquorice shortbread cookie sesame snaps halvah. 
+          I love gingerbread sugar plum sesame snaps chocolate bonbon biscuit pie chocolate cake. Sugar plum danish marzipan jelly beans cookie apple pie dragée gingerbread. 
+          I love oat cake I love pie muffin chocolate. Cotton candy ice cream lollipop marshmallow wafer biscuit. Sugar plum donut lemon drops dessert icing.
+        </p>
+        <p>Toffee tiramisu jelly beans I love soufflé chocolate cake. Pastry tootsie roll tiramisu apple pie icing I love bonbon macaroon. 
+          Tootsie roll cookie sweet tootsie roll toffee biscuit I love tart jelly beans. Wafer candy icing I love I love I love cheesecake marzipan jelly. 
+          Tart ice cream cake I love chupa chups bonbon gingerbread.
+        </p>
+      </div>
+    </section>
+
+    <section id="section2" data-nav="Section 2">
+      <div class="landing-container">
+        <h2>Section 2</h2>
+        <p>Tiramisu I love lemon drops pudding I love marzipan lollipop shortbread. Gummies macaroon biscuit cotton candy sweet roll biscuit sweet jujubes. 
+          Jujubes powder ice cream I love tiramisu jujubes powder soufflé sesame snaps. Icing tart I love I love I love. Bonbon lollipop cheesecake wafer sweet roll donut. 
+          Brownie lollipop halvah I love toffee lollipop I love biscuit sugar plum. Fruitcake chupa chups brownie caramels chocolate bar cupcake. 
+          Ice cream cupcake jelly gummi bears pie I love tootsie roll icing.
+        </p>
+        <p>Cotton candy brownie cake candy brownie powder sweet roll. Chocolate bar cupcake soufflé cupcake I love sesame snaps lemon drops halvah. 
+          Marshmallow lollipop jelly-o macaroon oat cake cotton candy topping. Ice cream cheesecake tootsie roll I love powder ice cream. 
+          Pie wafer cheesecake pie carrot cake. Ice cream pudding sweet roll cheesecake ice cream. Chupa chups pie candy canes sesame snaps pastry pudding donut jelly. 
+          Marzipan sweet carrot cake I love sugar plum. Danish cupcake sweet roll chocolate cake bear claw cheesecake tart. Oat cake brownie I love candy canes tootsie roll liquorice donut. 
+          I love I love donut bonbon shortbread. Croissant gummies gummi bears cookie lollipop ice cream.
+        </p>
+      </div>
+    </section>
+
+    <section id="section3" data-nav="Section 3">
+      <div class="landing-container">
+        <h2>Section 3</h2>
+        <p>I love caramels pastry dessert chocolate jujubes brownie cake soufflé. Chocolate bar toffee cotton candy jelly beans chocolate bar candy croissant halvah icing. 
+          Tart dragée shortbread gummies soufflé apple pie. Marzipan pie I love bear claw cake lemon drops. I love carrot cake cookie cake I love jujubes bonbon. 
+          I love I love cake biscuit lollipop chocolate pudding jujubes. Brownie apple pie carrot cake I love chocolate cake cheesecake shortbread cotton candy biscuit. 
+          Topping gummies brownie chocolate bar candy canes jujubes tiramisu. Cheesecake ice cream fruitcake donut icing I love sweet ice cream. 
+          Gingerbread I love topping tootsie roll dragée wafer bear claw tootsie roll. Gummi bears brownie macaroon toffee pastry ice cream dessert lemon drops marshmallow. 
+          Jelly-o soufflé caramels oat cake macaroon. Ice cream topping I love chupa chups powder macaroon.
+        </p>
+        <p>Chocolate cake candy croissant caramels I love biscuit. Lollipop I love sugar plum tootsie roll shortbread soufflé donut bonbon. 
+          Muffin chocolate cake powder jelly beans sugar plum. I love jelly candy canes I love sugar plum chocolate bar. 
+          Chocolate caramels I love candy canes I love gingerbread.
+        </p>
+      </div>
+    </section>
+
+    <section id="section4" data-nav="Section 4">
+      <div class="landing-container">
+        <h2>Section 4</h2>
+        <p>Soufflé oat cake lollipop carrot cake I love bonbon lollipop sweet roll sweet roll. Gingerbread brownie dessert pie soufflé cotton candy. 
+          I love tootsie roll topping cotton candy I love dessert. Soufflé tart oat cake gummies sweet roll icing. Lollipop I love I love sugar plum bonbon cake. 
+          Gingerbread apple pie cupcake sweet candy canes biscuit I love fruitcake brownie. Cupcake lollipop marshmallow I love candy canes. 
+          Brownie gummi bears I love chocolate tart bear claw pudding.
+        </p>
+        <p>Jelly I love cookie marzipan marzipan cotton candy carrot cake cupcake chocolate. Cotton candy biscuit pudding cookie macaroon lollipop tootsie roll chocolate chupa chups. 
+          Toffee liquorice dessert sweet gummies toffee. Cotton candy carrot cake soufflé muffin gummi bears candy canes marshmallow cotton candy. 
+          I love macaroon gummies toffee pastry cake dessert soufflé I love. Pie tart candy canes marzipan marshmallow carrot cake. 
+          Liquorice halvah ice cream fruitcake pudding gingerbread gummies I love cookie. Biscuit ice cream pie marshmallow tootsie roll soufflé jelly-o pudding chupa chups. 
+          Tart gummi bears cookie cake candy canes jelly-o dessert pastry ice cream. 
+        </p>
+      </div>
+    </section>
+
+    <section id="section5" data-nav="Section 5">
+      <div class="landing-container">
+        <h2>Section 5</h2>
+        <p>Biscuit apple pie fruitcake cake I love jelly beans I love. Gummies lemon drops I love pie candy cake chocolate. 
+          Chocolate cake chupa chups sugar plum cake ice cream pudding ice cream chocolate bar. Croissant jujubes biscuit I love cake I love pudding marshmallow icing. 
+          Jujubes cake I love chocolate bar icing. Lemon drops jelly beans sesame snaps wafer I love cake jujubes pie. 
+          Gingerbread gummies marzipan oat cake I love tootsie roll I love sugar plum.
+        </p>
+        <p>Apple pie I love liquorice sugar plum cupcake candy canes soufflé donut gummi bears. Danish marshmallow ice cream cheesecake cookie. 
+          Biscuit sugar plum chocolate bar muffin chocolate cake jelly-o. Chocolate cookie dragée sweet roll sweet roll chupa chups croissant gummi bears. 
+          Biscuit liquorice cake sweet danish topping jelly beans. I love I love gummies pudding carrot cake pie marzipan jelly gummies. Bonbon cake sweet roll icing brownie.
+        </p>
+      </div>
+    </section>
+
+    <button id="anchor">Scroll to Top</button>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; Udacity</p>
+  </footer>
+
+<!-- Script -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
